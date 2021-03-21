@@ -1,11 +1,16 @@
-# Foundations of Artificial Intelligence - Solving Sudoku Puzzles
-Date- 20/01/2020
+# Solving Sudoku Puzzles
+
+```python
+solution = sudoku_solver(sudoku)
+```
+where sudoku is a 9x9 numpy matrix
+
 
 ### Abstract
-In this assignment I was successful in my goal of using Python to create a backtracking constraint satisfaction based recursive function, able
-to solve a range of sudoku's of increasing difficulty,each within a time limit of 30 seconds.
+In this project I was successful in my goal of using Python to create a backtracking constraint satisfaction based recursive function, able
+to solve a range of sudoku's of increasing difficulty, each within a time limit of 30 seconds.
 
-###Introduction
+### Introduction
 In creating code to solve sudokus, I aim to build an understanding of constraint satisfaction, and methods to impliment 
 in a simple yet scalable way. An understanding of constraint satisfaction and it's underlying mathematics is
 imperitive in order to understand the modern neural networks that are utilised in fields from visual object recognition to decision making (1).
@@ -100,7 +105,7 @@ taken to complete the sudoku. In order to correct for this, one would require ac
 
 3. Civicioglu, P., 2013. Backtracking Search Optimization Algorithm for numerical optimization problems. Applied Mathematics and Computation, 219(15), pp.8121-8144.
 
-###Appendix
+### Appendix
 ##### Raw data from sudoku solving code output
 
 very_easy problem-0 took 0.015625 seconds to solve and 0 iterations. Starting sudoku contains 5 zeros 
